@@ -1,6 +1,8 @@
 ** **This is a work in progress** **
 
-# BioBertPT - Portuguese  Clinical BERT
+<img src="./logo-biobertpr1.png" alt="Logo BioBERTpt">
+
+# BioBERTpt - Portuguese  Clinical BERT
 
 This repository contains fine-tuned [BERT](https://github.com/google-research/bert) models trained on the clinical domain for Portuguese language. BERT-multilingual-cased were trained with clinical narratives from Brazilian hospitals and abstracts of scientific papers from Pubmed and Scielo.
 
@@ -18,7 +20,7 @@ Please download [the huggingface implementation of BERT](https://github.com/hugg
 
 ## Usage
 -----
-1. Download the BioBERTpt (we recomend **BioBertPT(all)**, see above) and unzip it into <bert_directory>.
+1. Download the BioBERTpt (we recomend **BioBERTpt(all)**, see above) and unzip it into <bert_directory>.
 
 2. Install the environment necessary to HuggingFace. 
 
