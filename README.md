@@ -10,7 +10,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr), a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
 
-The table below shows complete F1-score results for each entity in SemClinBr, where the last three models (in italian) are our in-domain models. In bold, the higher values. 
+The table below shows complete **F1-score** results for each entity in SemClinBr, where the last three models (in italian) are our in-domain models. In bold, the higher values. 
 
 | Entity / Model | Disorders | ChemicalDrugs | Procedures | DiagProced | DiseaseSynd | Findings | Heatlh | Laboratory | Medical | Pharmacologic | Quantitative | Sign | Therapeutic |
 |------|------|------|------|------|------|------|------|------|------|------|------|------|------|
