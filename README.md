@@ -33,18 +33,6 @@ model = AutoModel.from_pretrained("pucpr/biobertpt-all")
 -----
 Please download the amazing [Huggingface implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
 
-## Usage
------
-1. Download the BioBERTpt (we recomend **BioBERTpt(all)**, see above) and unzip it into <bert_directory>.
-
-2. Install the environment necessary to HuggingFace. 
-
-3. For a NER task, for example, you just need to load the model.
-
-```
-model = BertForTokenClassification.from_pretrained(<bert_directory>)
-```
-
 For more information, you can refer to these [examples](https://github.com/huggingface/pytorch-pretrained-BERT/tree/master/examples).
 
 ## Reproduce BioBERTpt
