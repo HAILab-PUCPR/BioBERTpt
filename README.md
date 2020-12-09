@@ -20,13 +20,14 @@ The table below shows complete **F1-score** results for each entity in SemClinBr
 |*BioBERtpt (clin)*|0.7805|**0.9109**|0.6855|**0.5595**|**0.5829**|0.5207|0.4057|**0.4526**|0.5618|**0.7791**|0.5926|0.5435|0.4593|
 |*BioBERtpt (all)*|**0.7913**|0.9042|**0.7032**|0.5481|0.5641|0.5173|0.4037|0.4400|0.5552|0.7472|0.5997|**0.5657**|**0.5128**|
 
-## Download BioBERTpt
+## How to use the model
 
-| Model | Domain | PyTorch checkpoint | 
-|------|-------|:-------------------------:|
-|`BioBERTpt (all)`  | Clinical + Biomedical |  [Download](https://drive.google.com/open?id=1PrGzj7B0B6rXjPmKoFFOXa1gGjVVHuwA) |
-|`BioBERTpt (clin)`  | Clinical | [Download](https://drive.google.com/open?id=1GIOqxPMxeW8sc4EyQ8s1ol3RFWgsBFte) |
-|`BioBERTpt (bio)`  | Biomedical | [Download](https://drive.google.com/open?id=16D0WA1QMoycvA0tR3KyVdMU1-vpw98sp) |
+Load the model via the transformers library:
+```
+from transformers import AutoTokenizer, AutoModel
+tokenizer = AutoTokenizer.from_pretrained("pucpr/biobertpt-all")
+model = AutoModel.from_pretrained("pucpr/biobertpt-all")
+```
 
 ## Prerequisite
 -----
