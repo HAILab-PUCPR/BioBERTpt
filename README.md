@@ -10,6 +10,17 @@ This is a example of the attention visualizing in the Transformer model with **B
 
 <img src="./exemplo.gif" alt="Attention-head view">
 
+```
+(...)
+model_version = 'pucpr/biobertpt-all'
+do_lower_case = True
+model = BertModel.from_pretrained(model_version, output_attentions=True)
+tokenizer = BertTokenizer.from_pretrained(model_version, do_lower_case=do_lower_case)
+sentence_a = "A paciente tomou paracetamol, pois estava com febre."
+sentence_b = "Ela ficou sonolenta e foi se deitar."
+show_head_view(model, tokenizer, sentence_a, sentence_b)
+```
+
 ## NER Experiment in SemClinBr Corpora
 
 We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr), a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
