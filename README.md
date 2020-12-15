@@ -4,6 +4,12 @@
 
 This repository contains fine-tuned [BERT](https://github.com/google-research/bert) models trained on the clinical domain for Portuguese language. Pre-trained BERT-multilingual-cased were fine-tuned with clinical narratives from Brazilian hospitals and abstracts of scientific papers from Pubmed and Scielo.
 
+# Attention-head view
+
+This is a example of the attention visualizing in the Transformer model with **BioBERTpt(all)**, using [BertViz](https://github.com/jessevig/bertviz). The attention-head view visualizes the attention patterns produced by one or more attention heads in a given transformer layer.
+
+<img src="./exemplo.gif" alt="Attention-head view">
+
 ## NER Experiment in SemClinBr Corpora
 
 We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr), a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
