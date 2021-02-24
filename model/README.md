@@ -4,6 +4,6 @@ We are making available our specialized model for the NER task that we train wit
 
 Please download, unzip and follow the instructions on [this notebook](../ner_prediction.ipynb) to recognize clinical entities.
 
-| Model | Link |
-|------|------|
-| NER Model|[Download](https://drive.google.com/file/d/1m4D_2B34-K0r9ixLW3DvCD7_sQtmAlW-/view?usp=sharing)|
+| Model | Corpus | Domain | Link |
+|------|------|------|------|
+| NER Model|[PortugueseClinicalNER][Clinical][Download](https://drive.google.com/file/d/1m4D_2B34-K0r9ixLW3DvCD7_sQtmAlW-/view?usp=sharing)|
