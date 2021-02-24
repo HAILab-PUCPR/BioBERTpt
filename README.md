@@ -1,4 +1,4 @@
-<img src="./logo-biobertpr1.png" alt="Logo BioBERTpt">
+<img src="./images/logo-biobertpr1.png" alt="Logo BioBERTpt">
 
 # BioBERTpt - Portuguese Clinical and Biomedical BERT
 
@@ -8,7 +8,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 This is a example of the attention visualizing in the Transformer model with **BioBERTpt(all)**, using [BertViz](https://github.com/jessevig/bertviz). The attention-head view visualizes the attention patterns produced by one or more attention heads in a given transformer layer.
 
-<img src="./exemplo.gif" alt="Attention-head view">
+<img src="./images/exemplo.gif" alt="Attention-head view">
 
 ```
 (...)
