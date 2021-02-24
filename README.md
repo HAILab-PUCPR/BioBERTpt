@@ -1,4 +1,4 @@
-** new: how to use the model for NER taskm see below **
+** new: how to use the model for NER task, see below **
 
 <img src="./images/logo-biobertpr1.png" alt="Logo BioBERTpt">
 
@@ -51,7 +51,7 @@ model = AutoModel.from_pretrained("pucpr/biobertpt-all")
 ## How to use the model for the NER task
 
 1. [Download the fine-tuned model for NER](https://github.com/HAILab-PUCPR/BioBERTpt/tree/master/model)
-2. [See how to use the model here (notebook)](ner_prediction.ipynb).
+2. [See how to use the model (notebook)](ner_prediction.ipynb).
 
 ## Prerequisite
 -----
