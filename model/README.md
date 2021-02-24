@@ -6,4 +6,4 @@ Please download, unzip and follow the instructions on [this notebook](../ner_pre
 
 | Model | Corpus | Domain | Link |
 |------|------|------|------|
-| NER Model|[PortugueseClinicalNER][Clinical][Download](https://drive.google.com/file/d/1m4D_2B34-K0r9ixLW3DvCD7_sQtmAlW-/view?usp=sharing)|
+| NER Model|PortugueseClinicalNER|Clinical|[Download](https://drive.google.com/file/d/1m4D_2B34-K0r9ixLW3DvCD7_sQtmAlW-/view?usp=sharing)|
