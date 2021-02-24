@@ -1,6 +1,6 @@
 # NER Model
 
-We are making available our specialized model for the NER task that we train with [this corpus].
+We are making available our specialized model for the NER task that we train with [this corpus](https://github.com/fabioacl/PortugueseClinicalNER).
 
 Please download, unzip and follow the instructions on [this page] to recognize clinical entities.
 
