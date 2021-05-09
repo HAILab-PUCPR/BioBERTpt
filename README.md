@@ -52,6 +52,7 @@ model = AutoModel.from_pretrained("pucpr/biobertpt-all")
 
 1. [Download the fine-tuned model for NER](https://github.com/HAILab-PUCPR/BioBERTpt/tree/master/model)
 2. [See how to use the model (notebook)](ner_prediction.ipynb).
+3. [How to use the mnodel with docker](https://github.com/HAILab-PUCPR/ENTClinPT)
 
 ## Prerequisite
 -----
