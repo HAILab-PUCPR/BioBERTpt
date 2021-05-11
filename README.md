@@ -25,7 +25,7 @@ show_head_view(model, tokenizer, sentence_a, sentence_b)
 
 ## BioBERTpt on Hugging Faces repo
 
-BioBERTpt models is on Hugging Faces repo:
+BioBERTpt models are on Hugging Faces repo:
 
 [BioBERTpt(all)](https://huggingface.co/pucpr/biobertpt-all)
 
@@ -33,7 +33,7 @@ BioBERTpt models is on Hugging Faces repo:
 
 [BioBERTpt(bio)](https://huggingface.co/pucpr/biobertpt-bio)
 
-These models was fine-tuned on Portuguese clinical and biomedical data, from BERT-multilingual. These models refers to in-domains models, without a specific task.
+These models were fine-tuned on Portuguese clinical and biomedical data, from BERT-multilingual. These models refers to in-domains models, without a specific task.
 
 Next, see how to use BioBERTpt models for the NER task.
 
