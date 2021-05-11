@@ -27,11 +27,11 @@ show_head_view(model, tokenizer, sentence_a, sentence_b)
 
 BioBERTpt models are on Hugging Faces repo:
 
-[BioBERTpt(all)](https://huggingface.co/pucpr/biobertpt-all)
+[BioBERTpt(all)](https://huggingface.co/pucpr/biobertpt-all): A clinical and biomedical language model for Portuguese
 
-[BioBERTpt(clin)](https://huggingface.co/pucpr/biobertpt-clin)
+[BioBERTpt(clin)](https://huggingface.co/pucpr/biobertpt-clin): A clinical language model for Portuguese (trained with EHR from hospitals)
 
-[BioBERTpt(bio)](https://huggingface.co/pucpr/biobertpt-bio)
+[BioBERTpt(bio)](https://huggingface.co/pucpr/biobertpt-bio): A biomedical language model for Portuguese (trained with scientific papers from Pubmed and Scielo)
 
 These models were fine-tuned on Portuguese clinical and biomedical data, from BERT-multilingual. These models refers to in-domains models, without a specific task.
 
