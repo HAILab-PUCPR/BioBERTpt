@@ -23,6 +23,18 @@ sentence_b = "Ela ficou sonolenta e foi se deitar."
 show_head_view(model, tokenizer, sentence_a, sentence_b)
 ```
 
+## BioBERTpt on Hugging Faces repo
+
+BioBERTpt models is on Hugging Faces repo:
+
+[BioBERTpt(all)](https://huggingface.co/pucpr/biobertpt-all)
+[BioBERTpt(clin)](https://huggingface.co/pucpr/biobertpt-clin)
+[BioBERTpt(bio)](https://huggingface.co/pucpr/biobertpt-bio)
+
+These models was fine-tuned on Portuguese clinical and biomedical data, from BERT-multilingual. These models refers to in-domains models, without a specific task.
+
+Next, see how to use BioBERTpt models for the NER task.
+
 ## NER Experiment in SemClinBr Corpora
 
 We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr), a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
