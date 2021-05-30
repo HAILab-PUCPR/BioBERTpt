@@ -6,6 +6,37 @@
 
 This repository contains fine-tuned [BERT](https://github.com/google-research/bert) models trained on the clinical domain for Portuguese language. Pre-trained BERT-multilingual-cased were fine-tuned with clinical narratives from Brazilian hospitals and abstracts of scientific papers from Pubmed and Scielo.
 
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+  - [Contributors](#Contributors)
+  - [Attention-head view](#Attention-head-view)
+  - [BioBERTpt on Hugging Faces repo](#BioBERTpt-on-Hugging-Faces-repo)
+  - [NER Experiment in SemClinBr Corpora](#NER-Experiment-in-SemClinBr-Corpora)
+  - [How to use the model](#How-to-use-the-model)
+  - [How to use the model for the NER task](#How-to-use-the-model-for-the-NER-task)
+  - [Prerequisite](#Prerequisite)
+  - [Reproduce BioBERTpt](#Reproduce-BioBERTpt)
+  - [Acknowledgements](#acknowledgements)
+  - [Citation](#citation)
+
+## Contributors 
+
+- Elisa Terumi Rubel Schneider<sup>1</sup>
+- João Vitor Andrioli de Souza<sup>1</sup>
+- Julien Knafou<sup>2</sup>
+- Lucas Emanuel Silva e Oliveira<sup>1</sup>
+- Jenny Copara<sup>2</sup>
+- Yohan Bonescki Gumiel<sup>1</sup>
+- Lucas Ferro Antunes de Oliveira<sup>1</sup>
+- Emerson Cabrera Paraiso<sup>1</sup>
+- Douglas Teodoro <sup>2</sup>
+- Cláudia Maria Cabral Moro Barra<sup>1</sup>
+
+1 Pontifícia Universidade Católica do Paraná, Brazil
+
+2 University of Applied Sciences and Arts of Western Switzerland
+
 ## Attention-head view
 
 This is a example of the attention visualizing in the Transformer model with **BioBERTpt(all)**, using [BertViz](https://github.com/jessevig/bertviz). The attention-head view visualizes the attention patterns produced by one or more attention heads in a given transformer layer.
@@ -92,6 +123,10 @@ python examples/run_language_modeling.py --output_dir=output --model_type=bert \
     --model_name_or_path=bert-base-multilingual-cased --do_train --train_data_file=data/corpus.txt  --num_train_epochs 15 --mlm \
 	--learning_rate 1e-5  --per_gpu_train_batch_size 16 --seed 666 --block_size=512
 ```
+
+## Acknowledgements
+
+This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001.
 
 ## Citation
 
