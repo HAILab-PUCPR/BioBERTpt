@@ -22,20 +22,26 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
 
 ## Contributors 
 
+**Students**:
+
 - Elisa Terumi Rubel Schneider<sup>1</sup>
+- Jenny Copara<sup>2</sup>
 - João Vitor Andrioli de Souza<sup>1</sup>
 - Julien Knafou<sup>2</sup>
 - Lucas Emanuel Silva e Oliveira<sup>1</sup>
-- Jenny Copara<sup>2</sup>
-- Yohan Bonescki Gumiel<sup>1</sup>
 - Lucas Ferro Antunes de Oliveira<sup>1</sup>
-- Emerson Cabrera Paraiso<sup>1</sup>
-- Douglas Teodoro <sup>2</sup>
+- Yohan Bonescki Gumiel<sup>1</sup>
+
+**Professors**:
+
 - Cláudia Maria Cabral Moro Barra<sup>1</sup>
+- Douglas Teodoro <sup>2</sup>
+- Emerson Cabrera Paraiso<sup>1</sup>
 
-1 Pontifícia Universidade Católica do Paraná, Brazil
 
-2 University of Applied Sciences and Arts of Western Switzerland
+1 [Pontifícia Universidade Católica do Paraná, Brazil](https://www.pucpr.br/)
+
+2 [University of Applied Sciences and Arts of Western Switzerland](https://www.hes-so.ch/)
 
 ## Attention-head view
 
