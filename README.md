@@ -72,6 +72,10 @@ BioBERTpt models are on Hugging Faces repo:
 
 These models were fine-tuned on Portuguese clinical and biomedical data, from BERT-multilingual. These models refers to in-domains models, without a specific task.
 
+If the models were useful, we would love to receive a like ❤️
+
+<img src="./img/like-biobertpt-all.jpg" alt="BioBERTpt">
+
 Next, see how to use BioBERTpt models for the NER task.
 
 ## NER Experiment in SemClinBr Corpora
