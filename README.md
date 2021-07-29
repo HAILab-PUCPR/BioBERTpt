@@ -74,13 +74,15 @@ These models were fine-tuned on Portuguese clinical and biomedical data, from BE
 
 If the models were useful, we would love to receive a like ❤️
 
-<img src="./img/like-biobertpt-all.jpg" alt="BioBERTpt">
+<img src="./images/like-biobertpt-all.jpg" alt="BioBERTpt">
 
 Next, see how to use BioBERTpt models for the NER task.
 
 ## NER Experiment in SemClinBr Corpora
 
 We evaluate our models on [SemClinBr](https://github.com/HAILab-PUCPR/SemClinBr), a semantically annotated corpus for Portuguese clinical NER, containing 1,000 labeled clinical notes. These corpus comprehended 100 UMLS semantic types, summarized in 13 groups of entities: Disorders, Chemicals and Drugs, Medical Procedure, Diagnostic Procedure, Disease Or Syndrome, Findings, Health Care Activity, Laboratory or Test Result, Medical Device, Pharmacologic Substance, Quantitative Concept, Sign or Symptom and Therapeutic or Preventive Procedure.
+
+All NER models are available in the [Hugging Faces repository](https://huggingface.co/pucpr/).
 
 The table below shows complete **F1-score** results for each entity in SemClinBr, where the last three models (in italian) are our in-domain models. In bold, the higher values. 
 
@@ -105,9 +107,10 @@ model = AutoModel.from_pretrained("pucpr/biobertpt-all")
 
 ## How to use the model for the NER task
 
-1. [Download the fine-tuned model for NER](https://github.com/HAILab-PUCPR/BioBERTpt/tree/master/model)
-2. [See how to use the model (notebook)](ner_prediction.ipynb).
+1. [Download a fine-tuned model for NER](https://github.com/HAILab-PUCPR/BioBERTpt/tree/master/model)
+2. [See how to use a NER model (notebook)](ner_prediction.ipynb).
 3. [How to use the model with docker](https://github.com/HAILab-PUCPR/ENTClinPT)
+
 
 ## Prerequisite
 -----
