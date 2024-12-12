@@ -167,3 +167,6 @@ This study was financed in part by the Coordenação de Aperfeiçoamento de Pess
 }
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HAILab-PUCPR/BioBERTpt&type=Date)](https://star-history.com/#HAILab-PUCPR/BioBERTpt&Date)
