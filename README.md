@@ -18,6 +18,7 @@ This repository contains fine-tuned [BERT](https://github.com/google-research/be
   - [Prerequisite](#Prerequisite)
   - [Reproduce BioBERTpt](#Reproduce-BioBERTpt)
   - [Acknowledgements](#acknowledgements)
+  - [License](#license)
   - [Citation](#citation)
 
 ## Contributors 
@@ -141,7 +142,22 @@ python examples/run_language_modeling.py --output_dir=output --model_type=bert \
 
 This study was financed in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (CAPES) - Finance Code 001.
 
+## License
+
+The BioBERTpt model weights (BioBERTpt-all, BioBERTpt-clin, and BioBERTpt-bio) are made available for non-commercial use under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license, subject to confirmation of the applicable rights and permissions.
+
+This license permits sharing and adaptation of the model weights for non-commercial purposes, provided that appropriate attribution is given. Commercial use requires separate authorization from the relevant rights holders.
+
+BioBERTpt was developed using BERT-base-multilingual-cased, originally released by Google under the Apache License 2.0. The original license and attribution requirements remain applicable.
+
+The CC BY-NC 4.0 designation applies to the BioBERTpt model weights and does not automatically extend to the source code, datasets, or third-party components. These materials may be subject to separate terms.
+
+License: https://creativecommons.org/licenses/by-nc/4.0/
+  
+
 ## Citation
+
+If you use BioBERTpt in your research, please cite the original publication:
 
 ```
 @inproceedings{schneider-etal-2020-biobertpt,
